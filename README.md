@@ -6,28 +6,6 @@ Built with **ROS2 Jazzy** + **Gazebo Harmonic** on a 6-DOF cobot arm with a fixe
 
 ---
 
-## Demo
-
-### 1. Simulation — 6-DOF arm with coke can target
-![Gazebo Scene](docs/images/01_gazebo_scene.png)
-
-### 2. Raw camera feed from fixed RGBD camera
-![Raw Camera](docs/images/02_raw_camera.png)
-
-### 3. YOLOv8 detection — vase 0.71 confidence
-![YOLO Detection](docs/images/03_yolo_detection.png)
-
-### 4. Depth debug view — colourised depth + bounding box + centroid + score=1.00
-![Depth Debug](docs/images/04_depth_debug.png)
-
-### 5. TF tree — full transform chain from camera to base_link
-![TF Tree](docs/images/05_tf_tree.png)
-
-### 6. Terminal — grasp pose publishing stably in base_link frame at 10Hz
-![Terminal Output](docs/images/06_terminal_output.png)
-
----
-
 ## What it does
 
 Takes a depth image and a 2D bounding box from YOLOv8 and outputs a reliable 3D grasp pose for any robot arm — handling depth noise, surface orientation, and grasp quality scoring. The output is a `PoseStamped` in `base_link` frame, ready for any motion planner.
@@ -72,24 +50,6 @@ Heavy alternatives (GraspIt, GPD) require training data and GPU inference. This 
 | Camera | D435-style RGBD (simulated, eye-to-hand) |
 | Arm | 6-DOF cobot |
 
----
-
-## Package structure
-
-```
-grasp_pose_estimator/
-├── grasp_pose_estimator/
-│   ├── yolo_detector.py        # YOLOv8 inference → Detection2DArray
-│   └── depth_processor.py      # depth + bbox → PoseStamped + score
-├── launch/
-│   └── grasp_estimator.launch.py
-├── examples/
-│   └── arm_task_node.py        # MoveIt2 integration example
-├── docs/
-│   └── images/
-├── package.xml
-└── setup.py
-```
 
 ---
 
@@ -203,28 +163,6 @@ ros2 topic hz /detected_object/bounding_box
 | 0.4 – 0.5 | Borderline | Reposition recommended |
 | < 0.4 | Poor — too much missing depth | Do not attempt grasp |
 
----
-
-## Camera intrinsics
-
-Intrinsics are read from `/camera_head/camera_info` at runtime — nothing is hardcoded. Values for this setup:
-
-```
-fx = 410.939   fy = 410.939
-cx = 640.0     cy = 360.0
-resolution: 1280 × 720
-source frame: camera_head_depth_optical_frame
-target frame: base_link  (via TF2 static transform)
-```
-
-The pixel-to-3D formula:
-```
-X = (u - cx) * Z / fx
-Y = (v - cy) * Z / fy
-Z = depth_image[v, u]     # metres, from 32FC1 depth image
-```
-
----
 
 ## TF transform chain
 
@@ -299,7 +237,6 @@ numpy < 2.0
 
 ## Author
 
-**Bineesha Elza Jabi**
-MSc Advanced Robotics, Queen Mary University of London
+**Bineesha Jabi**
 
 [github.com/bineeshajabi](https://github.com/bineeshajabi)

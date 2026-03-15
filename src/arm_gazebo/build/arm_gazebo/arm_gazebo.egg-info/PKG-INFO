@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: arm-gazebo
+Version: 0.0.0
+Summary: 6 DOF robotic arm
+Maintainer: Bineesha
+Maintainer-email: bineeshajabi98@gmail.com
+License: Apache-2.0
+Provides-Extra: test

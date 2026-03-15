@@ -1,0 +1,31 @@
+running egg_info
+creating build/arm_gazebo/arm_gazebo.egg-info
+writing build/arm_gazebo/arm_gazebo.egg-info/PKG-INFO
+writing dependency_links to build/arm_gazebo/arm_gazebo.egg-info/dependency_links.txt
+writing requirements to build/arm_gazebo/arm_gazebo.egg-info/requires.txt
+writing top-level names to build/arm_gazebo/arm_gazebo.egg-info/top_level.txt
+writing manifest file 'build/arm_gazebo/arm_gazebo.egg-info/SOURCES.txt'
+reading manifest file 'build/arm_gazebo/arm_gazebo.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/arm_gazebo/arm_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/build
+creating /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/build/lib
+creating /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/build/lib/arm_gazebo
+copying arm_gazebo/__init__.py -> /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/build/lib/arm_gazebo
+running install
+running install_lib
+creating /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo
+copying /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/build/lib/arm_gazebo/__init__.py -> /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo
+byte-compiling /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/share/ament_index
+creating /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/share/ament_index/resource_index
+creating /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/share/ament_index/resource_index/packages
+copying resource/arm_gazebo -> /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/share/arm_gazebo
+running install_egg_info
+Copying build/arm_gazebo/arm_gazebo.egg-info to /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/install.log'

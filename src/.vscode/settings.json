@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/arz-1024/arm_ws/src/install/arm_gazebo/lib/python3.12/site-packages",
+        "/home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/arz-1024/arm_ws/src/install/arm_gazebo/lib/python3.12/site-packages",
+        "/home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "ROS2.distro": "jazzy"
+}

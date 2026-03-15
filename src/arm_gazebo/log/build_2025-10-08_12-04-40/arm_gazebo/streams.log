@@ -1,0 +1,15 @@
+[0.567s] Invoking command in '/home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/build --no-deps symlink_data
+[0.791s] running develop
+[0.933s] running egg_info
+[0.947s] writing arm_gazebo.egg-info/PKG-INFO
+[0.947s] writing dependency_links to arm_gazebo.egg-info/dependency_links.txt
+[0.948s] writing requirements to arm_gazebo.egg-info/requires.txt
+[0.948s] writing top-level names to arm_gazebo.egg-info/top_level.txt
+[0.974s] reading manifest file 'arm_gazebo.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'arm_gazebo.egg-info/SOURCES.txt'
+[0.989s] running build_ext
+[0.989s] Creating /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages/arm-gazebo.egg-link (link to .)
+[0.989s] 
+[0.990s] Installed /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo
+[0.990s] running symlink_data
+[1.011s] Invoked command in '/home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/build --no-deps symlink_data

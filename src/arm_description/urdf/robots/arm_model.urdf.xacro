@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<robot name="arm_6dof" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+    <xacro:arg name="robot_name" default="arm_6dof"/>
+    <xacro:arg name="add_world" default="true"/>
+    <xacro:arg name="base_link" default="base_link"/>
+    <xacro:arg name="base_type" default="g_shape"/>
+    <xacro:arg name="flange_link" default="link6_flange"/>
+    <xacro:arg name="gripper_type" default="adaptive_gripper"/>
+    <xacro:arg name="use_gripper" default="true"/>
+
+    <xacro:if value="$(arg add_world)">
+      <link name="world"/>
+      <joint name="virtual_joint" type="fixed">
+          <parent link="world"/>
+          <child link="$(arg base_link)"/>
+          <origin xyz="0 0 0" rpy="0 0 0"/>
+      </joint>
+    </xacro:if>
+
+    <xacro:property name="current_base" value="$(arg base_type)"/>
+    <xacro:if value="${current_base == 'g_shape'}">
+        <xacro:include filename="$(find arm_description)/urdf/mech/arm_base.urdf.xacro"/>
+        <xacro:arm_base
+            base_link="$(arg base_link)"/>
+    </xacro:if>
+
+    <xacro:include filename="$(find arm_description)/urdf/mech/arm_define.urdf.xacro"/>
+    <xacro:arm_define
+      base_link="$(arg base_link)"
+      flange_link="$(arg flange_link)">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:arm_define>
+
+    <xacro:if value="$(arg use_gripper)">
+        <xacro:property name="current_gripper" value="$(arg gripper_type)"/>
+        <xacro:if value="${current_gripper == 'adaptive_gripper'}">
+            <xacro:include filename="$(find arm_description)/urdf/mech/adaptive_gripper.urdf.xacro"/>
+            <xacro:adaptive_gripper
+                parent="$(arg flange_link)">
+                <origin xyz="0 0 0.034" rpy="1.579 0 0"/>
+            </xacro:adaptive_gripper>
+        </xacro:if>
+    </xacro:if>
+
+    <xacro:include filename="$(find arm_description)/urdf/control/gazebo_sim_ros2_control.urdf.xacro"/>
+    <xacro:load_gazebo_sim_ros2_control_plugin/>
+
+
+    <xacro:include filename="$(find arm_description)/urdf/control/arm_transmission.urdf.xacro" />
+    <xacro:arm_transmission
+      flange_link="$(arg flange_link)"/>
+
+    <xacro:include filename="$(find arm_description)/urdf/sensors/intel_rgbd_cam_d435.urdf.xacro"/>
+
+</robot>

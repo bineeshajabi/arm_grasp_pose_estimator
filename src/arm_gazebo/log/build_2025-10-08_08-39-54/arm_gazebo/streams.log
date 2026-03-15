@@ -1,0 +1,20 @@
+[0.737s] Invoking command in '/home/arz-1024/arm_ws/src/arm_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/arm_gazebo build --build-base /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/build install --record /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/install.log --single-version-externally-managed install_data
+[0.961s] running egg_info
+[0.976s] writing build/arm_gazebo/arm_gazebo.egg-info/PKG-INFO
+[0.977s] writing dependency_links to build/arm_gazebo/arm_gazebo.egg-info/dependency_links.txt
+[0.977s] writing requirements to build/arm_gazebo/arm_gazebo.egg-info/requires.txt
+[0.977s] writing top-level names to build/arm_gazebo/arm_gazebo.egg-info/top_level.txt
+[1.015s] reading manifest file 'build/arm_gazebo/arm_gazebo.egg-info/SOURCES.txt'
+[1.015s] adding license file 'LICENSE'
+[1.015s] writing manifest file 'build/arm_gazebo/arm_gazebo.egg-info/SOURCES.txt'
+[1.015s] running build
+[1.016s] running build_py
+[1.016s] running install
+[1.022s] running install_lib
+[1.048s] running install_data
+[1.048s] running install_egg_info
+[1.070s] removing '/home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info' (and everything under it)
+[1.071s] Copying build/arm_gazebo/arm_gazebo.egg-info to /home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info
+[1.071s] running install_scripts
+[1.215s] writing list of installed files to '/home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/install.log'
+[1.243s] Invoked command in '/home/arz-1024/arm_ws/src/arm_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1024/arm_ws/src/arm_gazebo/install/arm_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/arm_gazebo build --build-base /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/build install --record /home/arz-1024/arm_ws/src/arm_gazebo/build/arm_gazebo/install.log --single-version-externally-managed install_data

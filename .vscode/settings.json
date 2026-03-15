@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/arz-1024/arm_ws/build/arm_gazebo",
+        "/home/arz-1024/arm_ws/install/arm_gazebo/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/arz-1024/arm_ws/build/arm_gazebo",
+        "/home/arz-1024/arm_ws/install/arm_gazebo/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "ROS2.distro": "jazzy",
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true
+}

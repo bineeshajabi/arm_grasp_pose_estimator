@@ -1,0 +1,96 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/arz-1024/arm_ws/build/arm_description
+-- Install configuration: ""
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/launch
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/launch/6dof_rviz.launch.py
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/launch/.vscode
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/launch/.vscode/c_cpp_properties.json
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/launch/.vscode/settings.json
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/rviz
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/rviz/arm_6dof.rviz
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/sensors
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/sensors/intel_rgbd_cam_d435.urdf.xacro
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/mech
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/mech/arm_base.urdf.xacro
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/mech/arm_define.urdf.xacro
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/mech/adaptive_gripper.urdf.xacro
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/control
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/control/gazebo_sim_ros2_control.urdf.xacro
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/control/arm_transmission.urdf.xacro
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/robots
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/urdf/robots/arm_model.urdf.xacro
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/d435
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/d435/visual
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/d435/visual/d435.stl
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/g_shape_base_v2_0
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/g_shape_base_v2_0/visual
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/g_shape_base_v2_0/visual/base_link.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/adaptive_gripper
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/adaptive_gripper/visual
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/adaptive_gripper/visual/gripper_left2.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/adaptive_gripper/visual/gripper_left1.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/adaptive_gripper/visual/gripper_right1.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/adaptive_gripper/visual/gripper_left3.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/adaptive_gripper/visual/gripper_base.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/adaptive_gripper/visual/gripper_right2.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/adaptive_gripper/visual/gripper_right3.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link1.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link2.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link4.png
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link6.png
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link5.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link1.png
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link6.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link5.png
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link2.png
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link7.png
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/suit_env.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link3.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link3.png
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link7.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/meshes/6dof_arm/visual/link4.dae
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/environment/path.sh
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/environment/path.dsv
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/local_setup.bash
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/local_setup.sh
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/local_setup.zsh
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/local_setup.dsv
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/package.dsv
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/ament_index/resource_index/packages/arm_description
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+-- Installing: /home/arz-1024/arm_ws/install/arm_description/share/arm_description/package.xml

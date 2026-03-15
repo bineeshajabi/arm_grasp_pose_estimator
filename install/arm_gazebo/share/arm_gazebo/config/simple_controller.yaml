@@ -1,0 +1,54 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 60    #in Hz
+
+    #JointTrajectoryController allows you to send joints on a robot
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    #Publishes the current state of the robot
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    gripper_action_controller:
+      type: parallel_gripper_action_controller/GripperActionController
+     
+#Define the parameters of each controller
+arm_controller:
+  ros__parameters:
+    joints: 
+      - link1_to_link2
+      - link2_to_link3
+      - link3_to_link4
+      - link4_to_link5
+      - link5_to_link6
+      - link6_to_link6_flange
+    #Command interface (commands to each joint) and state interface (feedback)
+    command_interfaces: 
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+    open_loop_control: true 
+    state_publish_rate: 40.0 
+    gains: 
+      link1_to_link2: {p: 300.0, i: 0.1, d: 3.0}
+      link2_to_link3: {p: 250.0, i: 0.08, d: 1.5}
+      link3_to_link4: {p: 200.0, i: 0.0, d: 1.5}
+      link4_to_link5: {p: 150.0, i: 0.0, d: 1.4}
+      link5_to_link6: {p: 90.0, i: 0.02, d: 1.3}
+      link6_to_link6_flange: {p: 80.0, i: 0.0, d: 0.1} 
+
+gripper_action_controller:
+  ros__parameters:
+    joint: "gripper_controller"
+    #Command interface (commands to each joint) and state interface (feedback)    
+    max_effort_interface: "gripper_controller/effort"
+    max_effort: 50.0
+    command_interfaces: 
+      - position
+      - effort
+    state_interfaces: 
+      - position
+      - velocity
+      

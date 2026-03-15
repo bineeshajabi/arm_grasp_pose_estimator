@@ -1,0 +1,2 @@
+[console_scripts]
+trajectory_publisher_server = arm_gazebo.trajectory_action_server:main

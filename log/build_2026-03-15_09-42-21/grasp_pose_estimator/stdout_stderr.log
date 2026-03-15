@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/PKG-INFO
+writing dependency_links to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/dependency_links.txt
+writing entry points to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/entry_points.txt
+writing requirements to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/requires.txt
+writing top-level names to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/top_level.txt
+reading manifest file '../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying grasp_pose_estimator/depth_processor.py -> /home/arz-1024/arm_ws/build/grasp_pose_estimator/build/lib/grasp_pose_estimator
+running install
+running install_lib
+copying /home/arz-1024/arm_ws/build/grasp_pose_estimator/build/lib/grasp_pose_estimator/depth_processor.py -> /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator
+byte-compiling /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator/depth_processor.py to depth_processor.cpython-312.pyc
+running install_data
+copying launch/grasp_estimator.launch.py -> /home/arz-1024/arm_ws/install/grasp_pose_estimator/share/grasp_pose_estimator/launch
+creating /home/arz-1024/arm_ws/install/grasp_pose_estimator/share/grasp_pose_estimator/rviz
+copying rviz/grasp.rviz -> /home/arz-1024/arm_ws/install/grasp_pose_estimator/share/grasp_pose_estimator/rviz
+running install_egg_info
+removing '/home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info to /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator-0.0.0-py3.12.egg-info
+running install_scripts
+Installing depth_process script to /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/grasp_pose_estimator
+Installing yolo_detect script to /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/grasp_pose_estimator
+writing list of installed files to '/home/arz-1024/arm_ws/build/grasp_pose_estimator/install.log'

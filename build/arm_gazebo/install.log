@@ -1,0 +1,15 @@
+/home/arz-1024/arm_ws/install/arm_gazebo/share/ament_index/resource_index/packages/arm_gazebo
+/home/arz-1024/arm_ws/install/arm_gazebo/share/arm_gazebo/package.xml
+/home/arz-1024/arm_ws/install/arm_gazebo/share/arm_gazebo/launch/6dof_test.launch.py
+/home/arz-1024/arm_ws/install/arm_gazebo/share/arm_gazebo/launch/6dof_gazebo_controller.launch.py
+/home/arz-1024/arm_ws/install/arm_gazebo/share/arm_gazebo/config/ros_gz_bridge.yaml
+/home/arz-1024/arm_ws/install/arm_gazebo/share/arm_gazebo/config/simple_controller.yaml
+/home/arz-1024/arm_ws/install/arm_gazebo/share/arm_gazebo/world/empty_world.sdf
+/home/arz-1024/arm_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info/PKG-INFO
+/home/arz-1024/arm_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info/top_level.txt
+/home/arz-1024/arm_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info/SOURCES.txt
+/home/arz-1024/arm_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info/requires.txt
+/home/arz-1024/arm_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info/dependency_links.txt
+/home/arz-1024/arm_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info/entry_points.txt
+/home/arz-1024/arm_ws/install/arm_gazebo/lib/python3.12/site-packages/arm_gazebo-0.0.0-py3.12.egg-info/zip-safe
+/home/arz-1024/arm_ws/install/arm_gazebo/lib/arm_gazebo/trajectory_publisher_server

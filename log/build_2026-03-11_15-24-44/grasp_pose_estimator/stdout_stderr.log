@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info
+writing ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/PKG-INFO
+writing dependency_links to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/dependency_links.txt
+writing requirements to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/requires.txt
+writing top-level names to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/top_level.txt
+writing manifest file '../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/SOURCES.txt'
+reading manifest file '../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arz-1024/arm_ws/build/grasp_pose_estimator/build
+creating /home/arz-1024/arm_ws/build/grasp_pose_estimator/build/lib
+creating /home/arz-1024/arm_ws/build/grasp_pose_estimator/build/lib/grasp_pose_estimator
+copying grasp_pose_estimator/__init__.py -> /home/arz-1024/arm_ws/build/grasp_pose_estimator/build/lib/grasp_pose_estimator
+running install
+running install_lib
+creating /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator
+copying /home/arz-1024/arm_ws/build/grasp_pose_estimator/build/lib/grasp_pose_estimator/__init__.py -> /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator
+byte-compiling /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/arz-1024/arm_ws/install/grasp_pose_estimator/share/ament_index
+creating /home/arz-1024/arm_ws/install/grasp_pose_estimator/share/ament_index/resource_index
+creating /home/arz-1024/arm_ws/install/grasp_pose_estimator/share/ament_index/resource_index/packages
+copying resource/grasp_pose_estimator -> /home/arz-1024/arm_ws/install/grasp_pose_estimator/share/ament_index/resource_index/packages
+copying package.xml -> /home/arz-1024/arm_ws/install/grasp_pose_estimator/share/grasp_pose_estimator
+running install_egg_info
+Copying ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info to /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/arz-1024/arm_ws/build/grasp_pose_estimator/install.log'

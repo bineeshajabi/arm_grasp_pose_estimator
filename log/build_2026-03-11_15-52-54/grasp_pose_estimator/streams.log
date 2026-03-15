@@ -1,0 +1,26 @@
+[4.805s] Invoking command in '/home/arz-1024/arm_ws/src/grasp_pose_estimator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1024/arm_ws/build/grasp_pose_estimator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/grasp_pose_estimator build --build-base /home/arz-1024/arm_ws/build/grasp_pose_estimator/build install --record /home/arz-1024/arm_ws/build/grasp_pose_estimator/install.log --single-version-externally-managed install_data
+[6.347s] running egg_info
+[6.479s] writing ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/PKG-INFO
+[6.480s] writing dependency_links to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/dependency_links.txt
+[6.481s] writing entry points to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/entry_points.txt
+[6.482s] writing requirements to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/requires.txt
+[6.482s] writing top-level names to ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/top_level.txt
+[6.769s] reading manifest file '../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/SOURCES.txt'
+[6.779s] adding license file 'LICENSE'
+[6.781s] writing manifest file '../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info/SOURCES.txt'
+[6.782s] running build
+[6.782s] running build_py
+[6.783s] copying grasp_pose_estimator/yolo_detector.py -> /home/arz-1024/arm_ws/build/grasp_pose_estimator/build/lib/grasp_pose_estimator
+[6.784s] running install
+[6.811s] running install_lib
+[6.945s] copying /home/arz-1024/arm_ws/build/grasp_pose_estimator/build/lib/grasp_pose_estimator/yolo_detector.py -> /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator
+[6.946s] byte-compiling /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator/yolo_detector.py to yolo_detector.cpython-312.pyc
+[6.952s] running install_data
+[6.952s] running install_egg_info
+[7.100s] removing '/home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator-0.0.0-py3.12.egg-info' (and everything under it)
+[7.101s] Copying ../../build/grasp_pose_estimator/grasp_pose_estimator.egg-info to /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages/grasp_pose_estimator-0.0.0-py3.12.egg-info
+[7.107s] running install_scripts
+[7.918s] Installing depth_process script to /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/grasp_pose_estimator
+[7.919s] Installing yolo_detect script to /home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/grasp_pose_estimator
+[7.921s] writing list of installed files to '/home/arz-1024/arm_ws/build/grasp_pose_estimator/install.log'
+[8.049s] Invoked command in '/home/arz-1024/arm_ws/src/grasp_pose_estimator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arz-1024/arm_ws/build/grasp_pose_estimator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arz-1024/arm_ws/install/grasp_pose_estimator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/grasp_pose_estimator build --build-base /home/arz-1024/arm_ws/build/grasp_pose_estimator/build install --record /home/arz-1024/arm_ws/build/grasp_pose_estimator/install.log --single-version-externally-managed install_data
